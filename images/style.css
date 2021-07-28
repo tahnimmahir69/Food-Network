@@ -1,4 +1,32 @@
 body{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
+}
+.orange{
+    color: orangered;
+}
+h1{
+    font-size: 50px;
+}
+p{
+    color: rgb(124, 124, 124);
+}
+.half-width{
+    width: 80%;
+    padding-left: 8%;
+}
+.half-width img{
+    width: 100%;
+}
+.top-banner{
+    display: flex;
+    margin: 100px;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 25px;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
 }
